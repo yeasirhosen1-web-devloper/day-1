@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* navbar css */
+.navbar-section{
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+h1{
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 100px;
+}
+p{
+    color: blue;
+    text-align: center;
+    margin-top: 20px;
+}
+  
+img{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    border: 1px solid black;
+}
+.button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+tion{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Skill Section */
+.skills-section {
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .skill-card {
+            background: #ffffff;
+            padding: 20px 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            font-size: 18px;
+            font-weight: bold;
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-8px);
+            background: #4CAF50;
+            color: white;
+        }
+    
+        /* fotter section */
+        footer-section {
+    background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+    border-top: 4px solid #4CAF50;
+}
+
+.footer-section h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.footer-section p {
+    margin: 8px 0;
+    font-size: 15px;
+    opacity: 0.9;
+}
+
+.footer-section a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.footer-section a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    opacity: 0.7;
+    border-top: 1px solid rgba(255,255,255,0.2);
+    padding-top: 15px;
+}
