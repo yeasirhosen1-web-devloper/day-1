@@ -5,26 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXWskCr2lySMAOrIVwzQnhRz1H_v7wlnzERA&s" type="image/x-icon">
      <link rel="stylesheet" href="first.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <title>My Profile</title>
 </head>
 <body>
-    <div class="navbar-section">
-        <h2>Yeair</h2>
-        <ul class="navbar">
-            <li><a href="#home.html">Home</a></li>
-            <li><a href="#about.html">About</a></li>
-            <li><a href="#contact.html">Contact</a></li>
-            <li> <a href="#Notice.html">Notice</a></li>
+<div class="navbar-section">
+    <h2>Yeasir</h2>
+
+    <div class="menu-toggle" onclick="toggleMenu()">
+        ☰
     </div>
 
-    <h1>My name Is Yeasir Hosen</h1>
-    <h2>Web Developer</h2>
-    <p>I am a web developer with a passion for creating beautiful and functional websites. I have experience in HTML, CSS, JavaScript, and various web development frameworks. I enjoy learning new technologies and staying up-to-date with the latest trends in web development.</p>
-    <img src="./pic/Broder out pic.png" alt="">
-    <div class="about-section">
-        <h2 class="button">About me</h2>
-    <p>I am a passionate web developer who loves to create responsive and user-friendly websites. My journey in web development started with learning HTML and CSS, and I have since expanded my skills to include JavaScript and modern frameworks like React and Vue.js. I enjoy solving problems and bringing ideas to life through code.</p>
+    <ul class="navbar" id="navMenu">
+        <li><a href="#home.html">Home</a></li>
+        <li><a href="#about.html">About</a></li>
+        <li><a href="#contact.html">Contact</a></li>
+        <li><a href="#notice.html">Notice</a></li>
+    </ul>
+</div>
+<div class="hero-section">
 
+</div>
+    <!-- Hero Section -->
+<div class="hero-section">
+    <div class="hero-text">
+        <h1>Hi, I'm Yeasir Hosen</h1>
+        <h2>Professional Web Developer</h2>
+        <p>
+            I create modern, responsive, and user-friendly websites using HTML, CSS, JavaScript, and modern frameworks.
+            I love turning ideas into reality through clean and efficient code.
+        </p>
+        <button>Contact Me</button>
+    </div>
+
+    <div class="hero-image">
+        <img src="./pic/Broder out pic.png" alt="Yaasir Hosen">
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="about-section">
+    <h2>About Me</h2>
+    <p>
+        I am a passionate web developer focused on building high-quality, responsive websites and web applications.
+        My journey started with HTML & CSS, and now I work with JavaScript and modern frameworks like React and Vue.js.
+        I enjoy solving problems, learning new technologies, and continuously improving my skills.
+    </p>
+</div>
 
 <div class="skills-section">
     <h3>Skills</h3>
@@ -36,16 +63,47 @@
         <div class="skill-card">Vue.js</div>
     </div>
 </div>
+<footer class="footer-section">
+    <div class="footer-container">
 
-  <footer class="footer-section">
-    <h3 style="align-content: center;">Contact Information</h3>
+        <div class="footer-col">
+            <h3>Yaasir Hosen</h3>
+            <p>Passionate Web Developer building modern and responsive websites.</p>
 
-    <p>Email: <a href="mailto:yeasirhosen1@gmail.com">yeasirhosen1@gmail.com</a></p>
-    <p>Phone: <a href="tel:+880123456789">+880123456789</a></p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Projects</a>
+            <a href="#">Contact</a>
+        </div>
+
+        <div class="footer-col">
+            <h3>Contact</h3>
+            <p>Email: yeasirhosen1@gmail.com</p>
+            <p>Phone: +880123456789</p>
+            <p>Location: Bangladesh</p>
+        </div>
+
+    </div>
 
     <div class="footer-bottom">
         <p>&copy; 2024 Yeasir Hosen. All rights reserved.</p>
     </div>
 </footer>
+<script>
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("active");
+}
+</script>
+
 </body>
 </html>
